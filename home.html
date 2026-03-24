@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Abhishek Patel</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-glow top-left"></div>
+    <div class="bg-glow bottom-right"></div>
+
+    <!-- Navigation -->
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo">Abhishek<span>.Dev</span></a>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience & Training</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="resum.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <img src="C:\Users\abhis\OneDrive\Pictures\formal.jpg" alt="Abhishek Patel Profile Photo"
+                        class="profile-photo">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="name">Abhishek Patel</h1>
+                    <h2 class="role">Software Developer & Android Enthusiast</h2>
+                    <p class="summary">
+                        Passionate about building impactful applications. Experienced in C, C++, Java, Python, and
+                        modern Android App Development.
+                        Solved 120+ DSA problems across platforms, showcasing strong algorithmic thinking.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/ak019" target="_blank" title="LinkedIn"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Abhishekpa21" target="_blank" title="GitHub"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="tel:+918618135893" title="Mobile"><i class="fas fa-phone-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="window-body">
+                            <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+    <span class="property">name</span>: <span class="string">"Abhishek Patel"</span>,
+    <span class="property">hobbies</span>: [<span class="string">"Coding"</span>, <span class="string">"Problem-Solving"</span>],
+    <span class="property">status</span>: <span class="string">"Ready for new challenges"</span>,
+    <span class="property">focus</span>: [<span class="string">"Android Dev"</span>, <span class="string">"Data Structures"</span>]
+};
+</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="section" style="padding: 2rem 0; padding-bottom: 50px; background: rgba(15, 23, 42, 0.4); border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05);">
+            <div class="container">
+                <div style="display: flex; justify-content: space-around; flex-wrap: wrap; padding: 2rem; gap: 2rem; text-align: center;">
+                    <div>
+                        <h3 style="font-size: 3rem; color: var(--accent-primary); margin-bottom: 0.5rem; font-weight: 800;">120+</h3>
+                        <p style="color: var(--text-muted); font-size: 1.1rem; font-weight: 500;">DSA Problems Solved</p>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 3rem; color: var(--accent-primary); margin-bottom: 0.5rem; font-weight: 800;">5+</h3>
+                        <p style="color: var(--text-muted); font-size: 1.1rem; font-weight: 500;">Projects Built</p>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 3rem; color: var(--accent-primary); margin-bottom: 0.5rem; font-weight: 800;">3+</h3>
+                        <p style="color: var(--text-muted); font-size: 1.1rem; font-weight: 500;">Programming Languages</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What I Do Section -->
+        <section class="section" style="padding-top: 80px; padding-bottom: 80px;">
+            <div class="container">
+                <h2 class="section-title">What I <span>Do</span></h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                    <!-- Card 1 -->
+                    <div class="glass-card" style="padding: 2.5rem; text-align: left; transition: transform 0.3s ease;">
+                        <i class="fas fa-mobile-alt" style="font-size: 2.5rem; color: var(--accent-primary); margin-bottom: 1.5rem;"></i>
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: #fff;">Android Development</h3>
+                        <p style="color: var(--text-muted); line-height: 1.6;">Building responsive and impactful Android applications using XML and Kotlin/Java to solve real-world problems.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="glass-card" style="padding: 2.5rem; text-align: left; transition: transform 0.3s ease;">
+                        <i class="fas fa-laptop-code" style="font-size: 2.5rem; color: var(--accent-primary); margin-bottom: 1.5rem;"></i>
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: #fff;">Software Development</h3>
+                        <p style="color: var(--text-muted); line-height: 1.6;">Writing clean, maintainable, and efficient code in Python, C, and C++ to build robust software solutions.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="glass-card" style="padding: 2.5rem; text-align: left; transition: transform 0.3s ease;">
+                        <i class="fas fa-brain" style="font-size: 2.5rem; color: var(--accent-primary); margin-bottom: 1.5rem;"></i>
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: #fff;">Algorithmic Thinking</h3>
+                        <p style="color: var(--text-muted); line-height: 1.6;">Strong focus on Data Structures and Algorithms to write optimized logic and tackle complex programming challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>Abhishek Patel</h2>
+                <p>Building scalable software & impactful Android applications.</p>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fas fa-envelope"></i> abhishekmp019@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i> +91-8618135893</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/ak019" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Abhishekpa21" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Abhishek Patel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Patel | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-glow top-left"></div>
+    <div class="bg-glow bottom-right"></div>
+
+    <!-- Navigation -->
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo">Abhishek<span>.Dev</span></a>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience & Training</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="resum.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main style="padding-top: var(--nav-height); min-height: calc(100vh - 200px); display: flex; align-items: center;">
+        <!-- About Section -->
+        <section id="about" class="section" style="width: 100%;">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="glass-card"
+                    style="display: flex; flex-wrap: wrap; gap: 3rem; padding: 3rem; align-items: center;">
+                    <div style="flex: 1; min-width: 300px; text-align: center;">
+                        <img src="C:\Users\abhis\OneDrive\Pictures\formal.jpg" alt="Abhishek Patel"
+                            style="width: 100%; max-width: 300px; border-radius: 16px; border: 3px solid var(--accent-primary); box-shadow: 0 0 20px var(--accent-primary-glow);">
+                    </div>
+                    <div style="flex: 2; min-width: 300px;">
+                        <h3 style="font-size: 2rem; margin-bottom: 1rem; color: #fff;">Hello, I'm <span
+                                style="color: var(--accent-primary);">Abhishek Patel</span></h3>
+                        <h4 style="font-size: 1.2rem; margin-bottom: 1.5rem; color: var(--accent-secondary);">Software
+                            Developer & Android Enthusiast</h4>
+                        <p style="color: var(--text-muted); margin-bottom: 1rem; line-height: 1.8; font-size: 1.05rem;">
+                            I am a passionate software developer with a strong foundation in C, C++, Java, and Python.
+                            My expertise lies in building impactful applications and modern Android Development using
+                            XML and Kotlin.
+                        </p>
+                        <p
+                            style="color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.8; font-size: 1.05rem;">
+                            With a keen interest in problem-solving, I have successfully solved over 120 Data Structures
+                            and Algorithms problems across various platforms. I strongly believe in continuous learning,
+                            teamwork, and adapting to new technologies to build scalable software solutions.
+                        </p>
+                        <div
+                            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+                            <ul style="color: var(--text-muted); list-style: none;">
+                                <li style="margin-bottom: 0.5rem;"><strong style="color: #fff;">Email:</strong>
+                                    abhishekmp019@gmail.com</li>
+                                <li style="margin-bottom: 0.5rem;"><strong style="color: #fff;">Phone:</strong>
+                                    +91-8618135893</li>
+                            </ul>
+                            <ul style="color: var(--text-muted); list-style: none;">
+                                <li style="margin-bottom: 0.5rem;"><strong style="color: #fff;">Location:</strong> India
+                                </li>
+                                <li style="margin-bottom: 0.5rem;"><strong style="color: #fff;">Availability:</strong>
+                                    Open to opportunities</li>
+                            </ul>
+                        </div>
+                        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                            <a href="resum.html" class="btn btn-primary">
+                                <i class="fas fa-file-pdf"></i> View Resume
+                            </a>
+                            <a href="contact.html" class="btn btn-primary"
+                                style="background: transparent; border: 2px solid var(--accent-primary); box-shadow: none;">
+                                <i class="fas fa-paper-plane"></i> Contact Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>Abhishek Patel</h2>
+                <p>Building scalable software & impactful Android applications.</p>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fas fa-envelope"></i> abhishekmp019@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i> +91-8618135893</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/ak019" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Abhishekpa21" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Abhishek Patel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
